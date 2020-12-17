@@ -1,9 +1,7 @@
 import { html, render } from "uhtml";
 
 const root = document.getElementById("ubie-banner");
-const link = root.getAttribute("data-ubie-href");
-const width = parseInt(root.getAttribute("data-width"));
-
+const width = parseInt(root.dataset.width);
 const shadow = root.attachShadow({ mode: "closed" });
 
 const onImageLoad = () => {
