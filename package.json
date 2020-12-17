@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
-    "size": "cat dist/banner.js | brotli | wc -c"
+    "size": "cat dist.js | brotli | wc -c"
   },
   "repository": {
     "type": "git",
