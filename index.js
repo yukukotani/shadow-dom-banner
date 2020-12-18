@@ -1,10 +1,10 @@
 import { html, render } from "uhtml";
 
-const root = document.getElementById("ubie-banner");
+const element = document.getElementById("ubie-banner");
 
-if (root.attachShadow) {
-  const width = parseInt(root.dataset.width);
-  const shadow = root.attachShadow({ mode: "closed" });
+if (element.attachShadow) {
+  const width = parseInt(element.dataset.width);
+  const shadow = element.attachShadow({ mode: "closed" });
 
   const onImageLoad = () => {
     const node = html.node`
