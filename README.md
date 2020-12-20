@@ -2,6 +2,8 @@
 
 An example implementation of ad banner using Shadow DOM.
 
+Playground: https://codepen.io/Mon_chi/pen/yLabwwM
+
 Blog post (ja): https://zenn.dev/yuku/articles/3c36d6710977e9
 
 ## build
